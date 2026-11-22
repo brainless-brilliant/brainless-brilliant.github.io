@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillSection";
 import TimelineSection from "./components/TimelineSection";
+import ToolsSection from "./components/ToolsSection";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ const App = () => {
     <div className="relative">
       <FloatingNavigation />
       <HeroSection />
+      <ToolsSection />
       <AboutSection />
       <ProjectsSection />
       <TimelineSection />

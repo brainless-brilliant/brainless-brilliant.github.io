@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Briefcase, Clock, Code, Mail, User, UserStar } from 'lucide-react';
+import { Briefcase, Clock, Code, Mail, User, UserStar, Wrench } from 'lucide-react';
 
 const FloatingNavigation = () => {
   const [activeSection, setActiveSection] = useState('hero');
@@ -11,6 +11,13 @@ const FloatingNavigation = () => {
     icon: UserStar, 
     hoverColor: '#FF9900',
     action: () => scrollToSection('hero')
+  },
+  {
+    id: 'tools',
+    label: 'Tools',
+    icon: Wrench,
+    hoverColor: '#10B981',
+    action: () => scrollToSection('tools')
   },
   { 
     id: 'about', 

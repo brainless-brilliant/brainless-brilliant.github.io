@@ -21,6 +21,9 @@ const HeroSection = () => {
         </div>
 
         <div className="md:flex space-x-8">
+          <a href="#tools" className="text-lg text-gray-600 hover:text-gray-900 transition-colors duration-200">
+            Tools
+          </a>
           <a href="#resume" className="text-lg text-gray-600 hover:text-gray-900 transition-colors duration-200">
             Resume
           </a>
