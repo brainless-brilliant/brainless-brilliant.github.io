@@ -64,7 +64,7 @@ const FloatingNavigation = () => {
   };
 
   return (
-    <div className="fixed right-6 top-1/2 transform -translate-y-1/2 z-50">
+    <div className="hidden md:block fixed right-6 top-1/2 transform -translate-y-1/2 z-50">
       <div className="flex flex-col space-y-4">
         {navItems.map((item) => {
           const Icon = item.icon;

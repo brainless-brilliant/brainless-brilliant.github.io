@@ -12,7 +12,7 @@ import "./App.css";
 // Main App Component
 const App = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <FloatingNavigation />
       <HeroSection />
       <ToolsSection />

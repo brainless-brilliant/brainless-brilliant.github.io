@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section id="hero" className="min-h-screen bg-executive-gray font-author">
       {/* Navigation Header */}
-      <nav className="flex justify-between items-center px-8 py-6">
+      <nav className="flex flex-col gap-3 md:flex-row md:justify-between md:items-center px-6 md:px-8 py-6">
         <div className="flex items-center space-x-3">
           <div className="w-8 h-8 bg-executive-orange rounded-full"></div>
           <div className="flex flex-col">
@@ -20,7 +20,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="md:flex space-x-8">
+        <div className="flex flex-wrap gap-x-6 gap-y-2 md:gap-x-8">
           <a href="#tools" className="text-lg text-gray-600 hover:text-gray-900 transition-colors duration-200">
             Tools
           </a>
@@ -37,7 +37,7 @@ const HeroSection = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="flex flex-col justify-between min-h-[80vh] h-[90vh] px-8">
+      <main className="flex flex-col justify-between min-h-[80vh] md:h-[90vh] px-6 md:px-8 pb-10 md:pb-0">
         <div className="flex-1 flex items-center justify-center">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
