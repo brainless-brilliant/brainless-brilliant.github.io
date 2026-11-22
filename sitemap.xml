@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://YOUR_USERNAME.github.io/brainless-brilliant/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://brainless-brilliant.github.io/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://brainless-brilliant.github.io/timezone/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://brainless-brilliant.github.io/markdown-editor/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://brainless-brilliant.github.io/prompt-builder/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://brainless-brilliant.github.io/bmc-generator/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://brainless-brilliant.github.io/algorithm-visualizer/</loc><lastmod>2026-11-22</lastmod></url>
 </urlset>
